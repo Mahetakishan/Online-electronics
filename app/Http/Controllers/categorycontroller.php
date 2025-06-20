@@ -12,7 +12,7 @@ class categorycontroller extends Controller
     {
         $category = category::all();
         return view('commonpages.productview',compact('category'));
-        // return response()->json($categories);
+        
         
     }
 
